@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "samuraiswords:sakura_planks"
+    }
+  ],
+  "result": {
+    "item": "samuraiswords:sakura_button",
+    "count": 1
+  }
+}

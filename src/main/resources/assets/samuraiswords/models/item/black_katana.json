@@ -1,0 +1,7 @@
+{
+  "parent": "samuraiswords:custom/katana",
+  "textures": {
+    "0": "samuraiswords:blocks/katana_texture",
+    "particle": "samuraiswords:items/katana_texture"
+  }
+}

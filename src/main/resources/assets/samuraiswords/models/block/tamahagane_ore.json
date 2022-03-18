@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "samuraiswords:blocks/tamahganeore",
+    "up": "samuraiswords:blocks/tamahganeore",
+    "north": "samuraiswords:blocks/tamahganeore",
+    "east": "samuraiswords:blocks/tamahganeore",
+    "south": "samuraiswords:blocks/tamahganeore",
+    "west": "samuraiswords:blocks/tamahganeore",
+    "particle": "samuraiswords:blocks/tamahganeore"
+  }
+}

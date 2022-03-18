@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "handle_textures2"
+      },
+      "name": "default"
+    }
+  }
+}

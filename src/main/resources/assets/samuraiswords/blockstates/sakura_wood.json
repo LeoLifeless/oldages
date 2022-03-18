@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "samuraiswords:block/sakura_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "samuraiswords:block/sakura_wood"
+    },
+    "axis=z": {
+      "model": "samuraiswords:block/sakura_wood",
+      "x": 90
+    }
+  }
+}

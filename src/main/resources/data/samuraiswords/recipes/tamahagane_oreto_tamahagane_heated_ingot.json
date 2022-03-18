@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "samuraiswords:tamahagane_ore"
+  },
+  "result": {
+    "item": "samuraiswords:tamahagane_heated_ingot"
+  }
+}

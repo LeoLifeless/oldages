@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "samuraiswords:blocks/sakuraplanks",
+    "particle": "samuraiswords:blocks/sakuraplanks"
+  }
+}

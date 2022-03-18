@@ -1,0 +1,7 @@
+{
+  "parent": "samuraiswords:custom/bluehandle",
+  "textures": {
+    "1": "samuraiswords:blocks/blue_handle",
+    "particle": "samuraiswords:items/blue_handle"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "samuraiswords:bokken",
+    "count": 1
+  }
+}

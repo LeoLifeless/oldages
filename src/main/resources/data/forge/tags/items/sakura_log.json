@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "samuraiswords:sakura_log",
+    "samuraiswords:sakura_planks",
+    "samuraiswords:sakura_wood",
+    "samuraiswords:sakura_fence_gate",
+    "samuraiswords:sakura_pressure_plate",
+    "samuraiswords:sakura_leaves",
+    "samuraiswords:sakura_button",
+    "samuraiswords:sakura_stairs",
+    "samuraiswords:sakura_slab",
+    "samuraiswords:sakura_fence"
+  ]
+}

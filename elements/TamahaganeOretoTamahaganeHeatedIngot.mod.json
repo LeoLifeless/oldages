@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:TamahaganeOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:TamahaganeHeatedIngot"
+    },
+    "name": "tamahagane_oreto_tamahagane_heated_ingot",
+    "namespace": "mod"
+  }
+}

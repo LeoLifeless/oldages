@@ -1,0 +1,7 @@
+{
+  "parent": "samuraiswords:custom/bokken",
+  "textures": {
+    "0": "samuraiswords:blocks/bokken_textures",
+    "particle": "samuraiswords:items/bokken_textures"
+  }
+}

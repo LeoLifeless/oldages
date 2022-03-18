@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "bokken_textures",
+    "customModelName": "bokken:default",
+    "name": "Bokken",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SamuraiSwords"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 2.0,
+    "enchantability": 13,
+    "damageVsEntity": 2.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TamahaganeIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

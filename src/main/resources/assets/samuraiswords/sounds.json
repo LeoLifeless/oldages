@@ -1,0 +1,20 @@
+{
+  "springforest": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "samuraiswords:19-spring-day-forest",
+        "stream": false
+      }
+    ]
+  },
+  "biomemusic": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "samuraiswords:peritunematerial_sakuya4",
+        "stream": true
+      }
+    ]
+  }
+}

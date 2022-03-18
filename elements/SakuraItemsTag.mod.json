@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SakuraWood"
+      },
+      {
+        "value": "CUSTOM:SakuraLog"
+      },
+      {
+        "value": "CUSTOM:SakuraPlanks"
+      },
+      {
+        "value": "CUSTOM:SakuraLeaves"
+      },
+      {
+        "value": "CUSTOM:SakuraStairs"
+      },
+      {
+        "value": "CUSTOM:SakuraSlab"
+      },
+      {
+        "value": "CUSTOM:SakuraFence"
+      },
+      {
+        "value": "CUSTOM:SakuraFenceGate"
+      },
+      {
+        "value": "CUSTOM:SakuraPressurePlate"
+      },
+      {
+        "value": "CUSTOM:SakuraButton"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "sakura_log",
+    "namespace": "forge"
+  }
+}

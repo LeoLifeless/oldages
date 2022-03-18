@@ -1,0 +1,764 @@
+{
+  "mod_elements": [
+    {
+      "name": "TamahaganeOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_ore"
+    },
+    {
+      "name": "TamahaganeBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_block"
+    },
+    {
+      "name": "TamahaganeIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_ingot"
+    },
+    {
+      "name": "TamahaganeHeatedIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_heated_ingot"
+    },
+    {
+      "name": "TamahaganeOretoTamahaganeHeatedIngot",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_oreto_tamahagane_heated_ingot"
+    },
+    {
+      "name": "TamahaganeHeatedIngotTotamahaganeIngot",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_heated_ingot_totamahagane_ingot"
+    },
+    {
+      "name": "TamahaganeIngotTotamahaganeBlock",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_ingot_totamahagane_block"
+    },
+    {
+      "name": "TamahaganeBlockTotamahaganeingot",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamahagane_block_totamahaganeingot"
+    },
+    {
+      "name": "Ss",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ss"
+    },
+    {
+      "name": "SamuraiSwords",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samurai_swords"
+    },
+    {
+      "name": "Bokken",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bokken"
+    },
+    {
+      "name": "WoodToBokken",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_to_bokken"
+    },
+    {
+      "name": "BlackKatana",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_katana"
+    },
+    {
+      "name": "RedKatana",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_katana"
+    },
+    {
+      "name": "BlueKatana",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_katana"
+    },
+    {
+      "name": "LightingStrike",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighting_strike",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningKatana",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_katana"
+    },
+    {
+      "name": "BlueHandle",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_handle"
+    },
+    {
+      "name": "RedHandle",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_handle"
+    },
+    {
+      "name": "BlackHandle",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_handle"
+    },
+    {
+      "name": "ItemsToRedHandle",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items_to_red_handle"
+    },
+    {
+      "name": "ItemsToBlueHandle",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items_to_blue_handle"
+    },
+    {
+      "name": "ItemsToBlackHandle",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items_to_black_handle"
+    },
+    {
+      "name": "BlueHandleToBlueKatana",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_handle_to_blue_katana"
+    },
+    {
+      "name": "RedHandleToRedKatana",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_handle_to_red_katana"
+    },
+    {
+      "name": "BlackHandleToBlackKatana",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_handle_to_black_katana"
+    },
+    {
+      "name": "EvilSamurailt",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_samurailt"
+    },
+    {
+      "name": "SakuraWood",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_wood"
+    },
+    {
+      "name": "SakuraLog",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_log"
+    },
+    {
+      "name": "SakuraPlanks",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_planks"
+    },
+    {
+      "name": "SakuraLeaves",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_leaves"
+    },
+    {
+      "name": "SakuraStairs",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_stairs"
+    },
+    {
+      "name": "SakuraSlab",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_slab"
+    },
+    {
+      "name": "SakuraFence",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_fence"
+    },
+    {
+      "name": "SakuraFenceGate",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_fence_gate"
+    },
+    {
+      "name": "SakuraPressurePlate",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_pressure_plate"
+    },
+    {
+      "name": "SakuraButton",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_button"
+    },
+    {
+      "name": "SakuraItemsTag",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_items_tag"
+    },
+    {
+      "name": "SakuraWoodRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_wood_recipe"
+    },
+    {
+      "name": "SakuraPlanksRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_planks_recipe"
+    },
+    {
+      "name": "SakuraStairsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_stairs_recipe"
+    },
+    {
+      "name": "SakuraSlabRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_slab_recipe"
+    },
+    {
+      "name": "SakuraFenceRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_fence_recipe"
+    },
+    {
+      "name": "SakuraFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_fence_gate_recipe"
+    },
+    {
+      "name": "SakuraPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_pressure_plate_recipe"
+    },
+    {
+      "name": "SakuraButtonRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_button_recipe"
+    },
+    {
+      "name": "SakuraStickRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_stick_recipe"
+    },
+    {
+      "name": "Particale",
+      "type": "particle",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particale"
+    },
+    {
+      "name": "SakuraGroove",
+      "type": "biome",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_groove"
+    },
+    {
+      "name": "Katanas",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katanas"
+    },
+    {
+      "name": "EvilsamuraispawnerBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilsamuraispawner_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvilsamuraispawnerBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilsamuraispawner_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Evilsamuraispawner",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilsamuraispawner"
+    },
+    {
+      "name": "CorruptedSamurai",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_samurai"
+    },
+    {
+      "name": "EvilsamuraispawnerUpdateTick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilsamuraispawner_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptedsamuraiArcher",
+      "type": "livingentity",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedsamurai_archer"
+    },
+    {
+      "name": "CorruptedDaimyoKiyoko",
+      "type": "livingentity",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_daimyo_kiyoko"
+    },
+    {
+      "name": "DaimyoKiyokolightning",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daimyo_kiyoko_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DaimyoKiyokoattacks",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daimyo_kiyokoattacks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SakuraPickaxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_pickaxe"
+    },
+    {
+      "name": "SakuraAxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_axe"
+    },
+    {
+      "name": "SakuraSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_sword"
+    },
+    {
+      "name": "SakuraShovel",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_shovel"
+    },
+    {
+      "name": "SakuraHoe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_hoe"
+    },
+    {
+      "name": "SakuraPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_pickaxe_recipe"
+    },
+    {
+      "name": "SakuraAxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_axe_recipe"
+    },
+    {
+      "name": "SakuraSwordRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_sword_recipe"
+    },
+    {
+      "name": "SakuraShovelRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_shovel_recipe"
+    },
+    {
+      "name": "SakuraHoeRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_hoe_recipe"
+    },
+    {
+      "name": "CorruptedDaimyoKiyokoEntityDies",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_daimyo_kiyoko_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "springforest",
+      "files": [
+        "19-spring-day-forest"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "biomemusic",
+      "files": [
+        "peritunematerial_sakuya4"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.samuraiswords.sakura_shovel": "Wooden Sakura Shovel",
+      "subtitles.springforest": "",
+      "item.samuraiswords.corruptedsamurai_archer_spawn_egg": "Corrupted Samurai Spawn Egg",
+      "item.samuraiswords.blue_handle": "Blue Handle",
+      "block.samuraiswords.tamahagane_block": "Tamahagane Block",
+      "item.samuraiswords.red_katana": "Red Katana",
+      "item.samuraiswords.sakura_axe": "Wooden Sakura Axe",
+      "itemGroup.tabsamurai_swords": "Samurai Swords",
+      "item.samuraiswords.ss": "Ss",
+      "subtitles.biomemusic": "",
+      "item.samuraiswords.blue_katana": "Blue Katana",
+      "block.samuraiswords.evilsamuraispawner": "Evilsamuraispawner",
+      "block.samuraiswords.sakura_wood": "Sakura Wood",
+      "block.samuraiswords.sakura_pressure_plate": "Sakura Pressure Plate",
+      "item.samuraiswords.tamahagane_heated_ingot": "Tamahagane Heated Ingot",
+      "block.samuraiswords.sakura_slab": "Sakura Slab",
+      "entity.samuraiswords.corruptedsamurai_archer": "Corrupted Samurai",
+      "block.samuraiswords.sakura_log": "Sakura Log",
+      "item.samuraiswords.black_katana": "Black Katana",
+      "item.samuraiswords.tamahagane_ingot": "Tamahagane Ingot",
+      "item.samuraiswords.sakura_pickaxe": "Wooden Sakura Pickaxe",
+      "block.samuraiswords.tamahagane_ore": "Tamahagane Ore",
+      "item.samuraiswords.bokken": "Bokken",
+      "entity.samuraiswords.corrupted_samurai": "Corrupted Samurai",
+      "item.samuraiswords.red_handle": "Red Handle",
+      "block.samuraiswords.sakura_button": "Sakura Button",
+      "item.samuraiswords.lightning_katana": "Lightning Katana",
+      "item.samuraiswords.corrupted_samurai_spawn_egg": "Corrupted Samurai Spawn Egg",
+      "item.samuraiswords.sakura_sword": "Wooden Sakura Sword",
+      "entity.samuraiswords.corrupted_daimyo_kiyoko": "Corrupted Daimyo Kiyoko",
+      "item.samuraiswords.black_handle": "Black Handle",
+      "block.samuraiswords.sakura_leaves": "Sakura Leaves",
+      "item.samuraiswords.sakura_hoe": "Wooden Sakura Hoe",
+      "block.samuraiswords.sakura_planks": "Sakura Planks",
+      "block.samuraiswords.sakura_fence_gate": "Sakura Fence Gate",
+      "block.samuraiswords.sakura_fence": "Sakura Fence",
+      "block.samuraiswords.sakura_stairs": "Sakura Stairs",
+      "item.samuraiswords.corrupted_daimyo_kiyoko_spawn_egg": "Corrupted Daimyo Kiyoko Spawn Egg",
+      "biome.samuraiswords.sakura_groove": "Sakura Groove"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "samuraiswords",
+    "modName": "SamuraiSwords",
+    "version": "1.0.0",
+    "author": "Lio, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.samuraiswords",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

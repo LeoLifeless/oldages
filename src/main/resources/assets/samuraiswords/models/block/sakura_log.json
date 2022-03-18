@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "samuraiswords:blocks/sakuralogtop",
+    "up": "samuraiswords:blocks/sakuralogtop",
+    "north": "samuraiswords:blocks/sakura_log_side",
+    "east": "samuraiswords:blocks/sakura_log_side",
+    "south": "samuraiswords:blocks/sakura_log_side",
+    "west": "samuraiswords:blocks/sakura_log_side",
+    "particle": "samuraiswords:blocks/sakuralogtop"
+  }
+}

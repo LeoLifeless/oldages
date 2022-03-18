@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bluekatana_texture",
+        "1": "blue_handle"
+      },
+      "name": "default"
+    }
+  }
+}

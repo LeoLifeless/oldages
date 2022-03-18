@@ -1,0 +1,8 @@
+{
+  "parent": "samuraiswords:custom/bluekatana",
+  "textures": {
+    "0": "samuraiswords:blocks/bluekatana_texture",
+    "1": "samuraiswords:blocks/blue_handle",
+    "particle": "samuraiswords:items/bluekatana_texture"
+  }
+}

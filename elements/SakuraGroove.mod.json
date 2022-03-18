@@ -1,0 +1,96 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Sakura Groove",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "ambientSound": {
+      "value": "CUSTOM:springforest"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "CUSTOM:biomemusic"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:Particale"
+    },
+    "particlesProbability": 0.4,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "forest"
+    },
+    "rainingPossibility": 0.7999999999999999,
+    "temperature": 0.8,
+    "baseHeight": 0.1,
+    "heightVariation": 0.19999999999999998,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 20,
+    "biomeDictionaryTypes": [
+      "FOREST"
+    ],
+    "grassPerChunk": 20,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 7,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 45,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 6,
+    "treeStem": {
+      "value": "CUSTOM:SakuraLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:SakuraLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

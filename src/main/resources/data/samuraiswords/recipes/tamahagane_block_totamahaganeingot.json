@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "samuraiswords:tamahagane_block"
+    }
+  },
+  "result": {
+    "item": "samuraiswords:tamahagane_ingot",
+    "count": 9
+  }
+}

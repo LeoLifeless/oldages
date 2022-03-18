@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "samuraiswords:block/sakura_slab"
+    },
+    "type=top": {
+      "model": "samuraiswords:block/sakura_slab_top"
+    },
+    "type=double": {
+      "model": "samuraiswords:block/sakura_slab_full"
+    }
+  }
+}

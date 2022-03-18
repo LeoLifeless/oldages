@@ -1,0 +1,56 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:TamahaganeOre"
+      },
+      {
+        "value": "CUSTOM:TamahaganeBlock"
+      },
+      {
+        "value": "CUSTOM:TamahaganeIngot"
+      },
+      {
+        "value": "CUSTOM:TamahaganeHeatedIngot"
+      },
+      {
+        "value": "CUSTOM:Ss"
+      },
+      {
+        "value": "CUSTOM:Bokken"
+      },
+      {
+        "value": "CUSTOM:Cherry"
+      },
+      {
+        "value": "CUSTOM:BlackKatana"
+      },
+      {
+        "value": "CUSTOM:RedKatana"
+      },
+      {
+        "value": "CUSTOM:BlueKatana"
+      },
+      {
+        "value": "CUSTOM:LightningKatana"
+      },
+      {
+        "value": "CUSTOM:BlueHandle"
+      },
+      {
+        "value": "CUSTOM:RedHandle"
+      },
+      {
+        "value": "CUSTOM:BlackHandle"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "tag",
+    "namespace": "forge"
+  }
+}
